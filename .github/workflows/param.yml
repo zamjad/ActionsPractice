@@ -14,8 +14,8 @@ on:
   workflow_dispatch:
     inputs:
         message:
-        description: 'message to display'
-        required: true
+          description: 'message to display'
+          required: true
       
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
