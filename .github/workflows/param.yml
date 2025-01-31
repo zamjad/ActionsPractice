@@ -29,4 +29,4 @@ jobs:
     steps:
       # Display the parameter
       - name: Display message
-        run: echo "${{github.event.input.message}}"
+        run: echo "${{github.event.inputs.message}}"
